@@ -1,26 +1,32 @@
-// src/Book.js
-import React from 'react';
+import React, { useState } from "react";
+import './Book.css';
 
-class Book extends React.PureComponent {
-    render() {
-        const { book } = this.props;
-        return (
-            <div>
-                <h3>{book.title}</h3>
-                <p>Author: {book.author}</p>
-                <p>Year: {book.year}</p>
-                <button onClick={handleToggleDetails}>
-                    {showDetails ? "Hide Details" : "Show Details"}
-                </button>
-                {showDetails && (
-                    <div>
-                        <p>Description: {book.description}</p>
-                        <p>Genre: {book.genre}</p>
-                    </div>
-                )}
-            </div>
-        );
-    }
-}
+const Book = ({ book, onDelete }) => {
+    const [showDetails, setShowDetails] = useState(false);
+
+    const handleToggleDetails = () => {
+        setShowDetails(!showDetails);
+    };
+
+    return (
+        <div className="book">
+            <h3 className="book-title">{book.title}</h3>
+            <p className="book-author">By {book.author}</p>
+            <p className="book-year">Year: {book.year}</p>
+            <button className="toggle-details" onClick={handleToggleDetails}>
+                {showDetails ? "Hide Details" : "Show Details"}
+            </button>
+            {showDetails && (
+                <div className="additional-details">
+                    <p className="book-description">{book.description}</p>
+                    <p className="book-genre">Genre: {book.genre}</p>
+                </div>
+            )}
+            <button className="delete-button" onClick={onDelete}>
+                Delete
+            </button>
+        </div>
+    );
+};
 
 export default Book;
