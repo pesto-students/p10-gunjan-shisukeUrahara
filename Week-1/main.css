@@ -1,0 +1,146 @@
+   * {
+    font-family: "Lato, Helvetica, sans-serif";
+    min-height: 20vh;    
+    margin:0;
+    padding:0;
+}
+
+.main__container{
+    display:flex;
+}
+
+.sidebar{
+    min-width:50px;
+}
+
+.sidebar__options{
+    background-color: #E6E8E6;
+    color:black;
+}
+
+.sidebar__options >li{
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+
+.sidebar__icons{
+    color:black;
+    min-height: 0px;
+    margin-bottom: 10px;
+  }
+
+
+
+.content__section{
+    flex-grow:1;
+}
+
+.song__header{
+    display: flex;
+    padding:20px 30px;
+    padding-bottom: 0px;
+    background-color: #353535;
+
+}
+
+.song__header__details{
+    padding:20px;
+    color:#FEFEFE;
+    margin-left:100px;
+}
+
+ul{
+    list-style:none;
+}
+
+footer{
+background-color: #386FA4;
+display: flex;
+margin-bottom: auto;
+}
+
+.header__details__content h1{
+    margin-top:-25px;
+    min-height: 0px;
+    margin-bottom: 10px;
+}
+.header__details__content p{
+    min-height: 0px;
+}
+
+.header__play__options{
+    margin-top: 90px;
+    display: flex;
+}
+.header__play__options li{
+    margin-right: 30px;
+}
+
+.footer__play__options{
+    display: flex;    
+}
+
+.footer__play__options li {
+    margin-right: 30px;
+    flex-grow:1;
+    color:white;
+    margin-top:100px;
+    margin-left:200px;
+}
+
+ tr:nth-child(even) {
+    background-color: #E6E8E6;
+  }
+
+ tr:nth-child(odd) {
+    background-color: white;
+  }
+
+  table{
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+
+
+  td > button {
+   background-color: transparent;
+   padding: 2px;
+   min-height:0px;
+   color:blue;
+  }
+
+  tr{
+    margin:100px;
+  }
+
+
+  .footer__left__container{
+    display: flex;
+    align-content: center;
+  }
+
+  .footer__left__image{
+    width: 100%;
+    height:auto;
+    object-fit: contain;
+    padding-left:20px;
+    padding-top:20px;
+  }
+
+  .footer__left__content{
+    margin-top:40px;
+    margin-left:50px;
+  }
+
+ .footer__left__content > p{
+    min-height: 0px;
+    min-width: 100px;
+    margin-bottom: 10px;
+    color: white;
+  }
