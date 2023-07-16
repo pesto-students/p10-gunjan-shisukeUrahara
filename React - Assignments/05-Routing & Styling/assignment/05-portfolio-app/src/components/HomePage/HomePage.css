@@ -1,0 +1,23 @@
+.home {
+    padding: 20px;
+    color: #fff;
+    background: url('https://images.alphacoders.com/123/1239284.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:left;
+  }
+  
+  .home h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .home .intro p, .home .details p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  

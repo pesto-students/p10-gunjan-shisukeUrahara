@@ -1,0 +1,35 @@
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* this will add space around each card */
+    padding: 0 10px; /* add padding to the container to prevent cards from sticking to the edge */
+}
+
+.blog h1{
+    text-align: center;
+}
+
+.blog-post-card {
+    flex: 0 0 calc(33% - 20px); /* subtract the total margin from the width to ensure even spacing */
+    margin: 10px; /* add margin to create gaps between cards */
+    padding: 10px;
+    background-color: #444;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.blog-post-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.blog-post-card img {
+    width: 100%;
+    height: auto;
+}
+
+.blog{
+    background: url('https://images.alphacoders.com/123/1239284.jpg') no-repeat center center fixed;
+    height:100vh;
+}

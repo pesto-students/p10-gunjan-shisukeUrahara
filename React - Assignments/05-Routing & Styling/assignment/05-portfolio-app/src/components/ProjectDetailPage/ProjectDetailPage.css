@@ -1,0 +1,30 @@
+.project-detail {
+    padding: 20px;
+    color: #fff;
+    background: url('https://images.alphacoders.com/123/1239284.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh; /* This will make the div take up at least the full height of the viewport */
+    box-sizing: border-box; /* This ensures that the padding is included in the total height */
+  }
+  
+  .project-detail img {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .project-detail h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .project-detail p {
+    font-size: 1.5em;
+  }
+  
