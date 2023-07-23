@@ -1,0 +1,33 @@
+/* Interests.css */
+.Interests {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.Interests .interest {
+    padding: 5px 10px;
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.Interests .interest .remove {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+/* Interests.css */
+ .interest-remove {
+    background-color: #ff6347;
+    color: white;
+    border-radius: 50%;
+    width: 10px;
+    padding-right: 5px;
+    text-align:justify;
+    cursor: pointer;
+    margin-left: 20px;
+    display: inline-block;
+}
