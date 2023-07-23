@@ -1,0 +1,13 @@
+/* Home.css */
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .home h1 {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
