@@ -1,0 +1,34 @@
+/* ContactPage.css */
+.contact {
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  height:100vh;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contact form input,
+.contact form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  width: 100%;
+}
+
+.contact form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

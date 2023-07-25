@@ -1,0 +1,22 @@
+/* components/ShortenUrlForm.css */
+.shorten-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .shorten-form input {
+    padding: 10px;
+    width: 60%;
+    color: #333;
+  }
+  
+  .shorten-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
