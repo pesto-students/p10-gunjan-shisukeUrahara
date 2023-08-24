@@ -1,0 +1,19 @@
+.post-details {
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    color: white;
+    background-color: #444;
+  }
+  
+  .post-details h2 {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .post-details p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  

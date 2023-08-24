@@ -1,0 +1,30 @@
+/* GiftForm.css */
+.GiftForm {
+    margin: 20px auto;
+    width: 80%;
+    color: #fff;
+    background-color: #333;
+}
+
+.GiftForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.GiftForm form input, .GiftForm form select {
+    padding: 10px;
+    width: 100%;
+    background-color: #555;
+    color: #fff;
+    border: none;
+}
+
+.GiftForm form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

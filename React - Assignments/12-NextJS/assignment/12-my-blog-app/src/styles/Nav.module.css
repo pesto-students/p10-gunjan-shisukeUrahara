@@ -1,0 +1,18 @@
+/* styles/Nav.module.css */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    background-color: #222;
+    position: sticky; /* make the navbar sticky */
+    top: 0; /* stick to the top of the viewport */
+    z-index: 10; /* ensure the navbar is above other content */
+  }
+  
+  
+  .link {
+    color: #0af;
+    text-decoration: none;
+    margin-left: 25px;
+  }
+  

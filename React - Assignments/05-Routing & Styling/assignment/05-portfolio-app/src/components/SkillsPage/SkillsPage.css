@@ -1,0 +1,14 @@
+.skills {
+    padding: 20px;
+    color: #fff;
+    background: url('https://images.alphacoders.com/123/1239284.jpg') no-repeat center center fixed;
+    height:150vh;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* this will add space around each card */
+}
+

@@ -1,0 +1,15 @@
+/* Recommendations.css */
+.Recommendations .recommendation-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #555;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.Recommendations .recommendation-card .recommendation-number {
+    margin-right: 10px;
+    font-weight: bold;
+}

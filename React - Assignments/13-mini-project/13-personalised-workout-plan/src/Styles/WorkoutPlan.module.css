@@ -1,0 +1,58 @@
+/* src/Styles/WorkoutPlan.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222;
+  padding: 2rem;
+  color: #fff;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #222;
+}
+
+.dayName {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.exercise {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.exerciseName {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.details {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.loading,
+.noPlan {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem 0;
+  color: #0af;
+}
